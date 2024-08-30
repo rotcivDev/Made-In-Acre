@@ -87,10 +87,10 @@ Merge Markdown
 
 Markdown Table Of Content
 
-    markdown-toc -i .\merged\Material.out.md
+    markdown-toc -i .\target\mergedFile.md
 
-Markdown to PDF
+Markdown to PDF (não funcionou, usei www.pdfforge.org)
 
-    md-to-pdf .\merged\Material.out.md
+    md-to-pdf .\target\mergedFile.md
 
 
