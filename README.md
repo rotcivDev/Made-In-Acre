@@ -83,14 +83,19 @@ Settings (JSON)
 Merge Markdown
 
     cd Material
-    merge-markdown -m .\ -o material
+    merge-markdown -m .\ -o material (ele ta duplicando o que foi mergeado)
 
 Markdown Table Of Content
 
     markdown-toc -i .\target\mergedFile.md
 
-Markdown to PDF (não funcionou, usei www.pdfforge.org)
+Markdown to PDF - Extensão do vs code
 
-    md-to-pdf .\target\mergedFile.md
+    Name: Markdown PDF
+    Id: yzane.markdown-pdf
+    Description: Convert Markdown to PDF
+    Version: 1.5.0
+    Publisher: yzane
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
 
 
