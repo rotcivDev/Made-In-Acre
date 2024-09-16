@@ -1,6 +1,6 @@
 /**
- * [Link]
- * [Assuntos]
+ * https://judge.beecrowd.com/pt/problems/view/2973
+ * Busca binaria, binary search, guloso
  */
 
 #include <bits/stdc++.h>
@@ -75,7 +75,7 @@ bool ehPossivel(vll& pipocas, ll count_competidores, ll velocidade_comer, ll tem
 }
 
 ll binary_search(vll& pipocas, ll count_competidores, ll velocidade_comer) {
-    ll esquerda = 1, direita = 1e10 + 10;
+    ll esquerda = 1, direita = 1e9 + 10;
     ll resp;
 
     while (esquerda < direita) {
